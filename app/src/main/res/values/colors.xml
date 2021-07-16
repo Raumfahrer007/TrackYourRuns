@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="green_light">#b2fab4</color>
+    <color name="green">#81c784</color>
+    <color name="green_dark">#519657</color>
+    <color name="blue_light">#9be7ff</color>
+    <color name="blue_dark">#2286c3</color>
+
+
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="red">#C60000</color>
+
+    <color name="run_worse">#9AFF0000</color>
+    <color name="run_better">#9900FF0A</color>
+    <color name="run_equal">#99FFBF00</color>
+</resources>

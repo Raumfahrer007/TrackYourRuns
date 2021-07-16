@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="btn_width_long">200dp</dimen>
+    <dimen name="btn_width_medium">100dp</dimen>
+    <dimen name="margin_xs">8dp</dimen>
+    <dimen name="margin_s">16dp</dimen>
+    <dimen name="margin_l">32dp</dimen>
+    <dimen name="margin_xl">46dp</dimen>
+    <dimen name="floatingBtn_radius">70dp</dimen>
+    <dimen name="margin_compare_table">8dp</dimen>
+
+    <!--start_frame-->
+    <dimen name="start_frame_text_view_margin">32dp</dimen>
+
+    <!--Routes/Runs Lists-->
+    <dimen name="list_padding_top">14dp</dimen>
+    <dimen name="list_padding_start">12dp</dimen>
+    <dimen name="list_text_size">24sp</dimen>
+
+    <!--Statistics-->
+    <dimen name="text_size_headline1">28sp</dimen>
+    <dimen name="text_size_headline2">22sp</dimen>
+    <dimen name="text_size_headline_value">16sp</dimen>
+    <dimen name="statistics_margin_start_end_1">8dp</dimen>
+    <dimen name="statistics_margin_start_end_2">16dp</dimen>
+    <dimen name="statistics_margin_bottom_1">14dp</dimen>
+    <dimen name="statistics_margin_bottom_2">4dp</dimen>
+</resources>

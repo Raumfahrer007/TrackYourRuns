@@ -1,0 +1,73 @@
+<resources>
+    <!--General Strings-->
+    <string name="app_name">TrackYourRuns</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="date">Date</string>
+    <string name="start_time">Start Time</string>
+    <string name="route">Route</string>
+    <string name="intensity">Intensity</string>
+    <string name="home">Home</string>
+    <string name="compare">Compare</string>
+    <string name="statistics">Statistics</string>
+    <string name="average_short">Avg.</string>
+    <string name="total">Total</string>
+    <string name="intensity_short">Intens.</string>
+    <string name="km_count">%1d. km</string>
+    <string name="km">%1d km</string>
+    <string name="minutes">%1.2f min</string>
+    <string name="hours">%1.2f h</string>
+
+    <!--start_frame Strings-->
+    <string name="start_total_km">Total\nDistance</string>
+    <string name="start_total_time">Total\nTime</string>
+    <string name="start_favourite_route">Favourite\nRoute</string>
+    <string name="start_average_km_time">Average\nTime/km</string>
+
+    <!--add_route Strings-->
+    <string name="add_route">Add Route</string>
+    <string name="route_name">Name of the route</string>
+    <string name="distance">Distance</string>
+    <string name="distance_measure">km</string>
+    <string name="name_taken">The name is already in use</string>
+    <string name="delete_fail">Deleting not possible! The selected route is used in at least one run.</string>
+
+    <!--add_run Strings-->
+    <string name="add_run">Add Run</string>
+    <string name="select_date">Select a date</string>
+    <string name="select_time">Select start time</string>
+    <string name="select_route">Select a route</string>
+    <string name="entered_data_fail">Enter a Date, Time and Route first</string>
+    <string name="km_time_fail">Enter a time for every km first</string>
+    <string name="import_data">Import Data</string>
+    <string name="import_fail">Import is not possible yet</string>
+
+    <!--select_route_to_compare String-->
+    <string name="select_route_compare">Select a route to compare your runs</string>
+
+    <!--compare_route Strings-->
+    <string name="compare_route">Your runs</string>
+    <string name="ten">10</string>
+    <string name="twenty_five">25</string>
+    <string name="fifty">50</string>
+    <string name="all">All</string>
+
+    <!--statistics Strings-->
+    <string name="total_km">Distance</string>
+    <string name="total_time">Time</string>
+    <string name="total_runs">Runs</string>
+    <string name="average">Average</string>
+    <string name="average_time_km">Time/km</string>
+    <string name="average_total_time">Time/Run</string>
+    <string name="average_intensity">Intensity</string>
+    <string name="best_run">Best Run</string>
+    <string name="best_time_km">Time/Km</string>
+    <string name="best_total_time">Time</string>
+    <string name="best_intensity">Intensity</string>
+    <string name="statistics_fail">There is no statistic yet</string>
+
+    <!--menu Strings-->
+    <string name="edit_routes">Edit Routes</string>
+    <string name="manage_runs">Manage Runs</string>
+    <string name="settings">Settings</string>
+</resources>

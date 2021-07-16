@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--start_frame-->
+    <style name="TextStyleStartHeadline" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">24sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextStyleStartValue" parent="TextStyleStartHeadline" >
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="TextStyleButtonAddRun">
+        <item name="android:textSize">32sp</item>
+    </style>
+
+    <!--Compare_Table-->
+    <style name="TextStyleCompareTableTimes" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="TextStyleCompareTableHeadlines" parent="TextStyleCompareTableTimes">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextStyleCompareTableDateTimes" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">18sp</item>
+    </style>
+
+
+    <style name="TextStyleRouteList" parent="@android:style/Widget.TextView" >
+        <item name="android:textSize">@dimen/list_text_size</item>
+    </style>
+
+    <style name="TextStyleRunList" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/list_text_size</item>
+    </style>
+
+
+    <!--Statistics-->
+    <style name="TextStyleStatisticsRoute" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/text_size_headline1</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="TextStyleStatisticsHeadline" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/text_size_headline2</item>
+    </style>
+
+    <style name="TextStyleStatisticsFail" parent="TextStyleStatisticsHeadline">
+        <item name="android:textColor">@color/red</item>
+    </style>
+
+    <style name="TextStyleStatisticsHeadlineValue" parent="@android:style/Widget.TextView">
+        <item name="android:textSize">@dimen/text_size_headline_value</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="TextStyleStatisticsValue" parent="TextStyleStatisticsHeadlineValue">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <style name="LinearLayoutStyleStatistics1" >
+        <item name="android:background">@drawable/background_border_bottom</item>
+        <item name="android:layout_marginStart">@dimen/statistics_margin_start_end_1</item>
+        <item name="android:layout_marginEnd">@dimen/statistics_margin_start_end_1</item>
+        <item name="android:layout_marginBottom">@dimen/statistics_margin_bottom_1</item>
+    </style>
+
+    <style name="LinearLayoutStyleStatisticsHeadlines" >
+        <item name="android:layout_marginStart">@dimen/statistics_margin_start_end_2</item>
+        <item name="android:layout_marginEnd">@dimen/statistics_margin_start_end_2</item>
+    </style>
+
+    <style name="LinearLayoutStyleStatisticsValues" parent="LinearLayoutStyleStatisticsHeadlines">
+        <item name="android:background">@drawable/background_border_bottom_thin</item>
+        <item name="android:layout_marginBottom">@dimen/statistics_margin_bottom_2</item>
+    </style>
+
+    <style name="LinearLayoutStyleStatisticsValuesLastLine" parent="LinearLayoutStyleStatisticsHeadlines">
+        <item name="android:layout_marginBottom">@dimen/statistics_margin_bottom_2</item>
+    </style>
+
+</resources>

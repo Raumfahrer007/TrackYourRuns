@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    style="@style/LinearLayoutStyleStatistics1">
+
+    <TextView
+        android:id="@+id/txtView_StatisticsRouteName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        style="@style/TextStyleStatisticsRoute"/>
+
+    <!--Total-->
+    <LinearLayout
+        android:id="@+id/linearLayout_StatisticsTotalAndFail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtView_StatisticsTotal"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:text="@string/total"
+            android:layout_weight="1"
+            style="@style/TextStyleStatisticsHeadline"/>
+
+        <TextView
+            android:id="@+id/txtView_StatisticsFail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            style="@style/TextStyleStatisticsFail"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_StatisticsTotalHeadlines"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        style="@style/LinearLayoutStyleStatisticsHeadlines">
+
+        <TextView
+            android:id="@+id/txtView_StatisticsTotalHeadlineKm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/total_km"
+            style="@style/TextStyleStatisticsHeadlineValue"/>
+
+        <TextView
+            android:id="@+id/txtView_StatisticsTotalHeadlineTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/total_time"
+            style="@style/TextStyleStatisticsHeadlineValue"/>
+
+        <TextView
+            android:id="@+id/txtView_StatisticsTotalHeadlineRuns"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/total_runs"
+            style="@style/TextStyleStatisticsHeadlineValue"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_StatisticsTotalValues"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        style="@style/LinearLayoutStyleStatisticsValues">
+
+        <TextView
+            android:id="@+id/txtView_StatisticsTotalValueKm"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/TextStyleStatisticsValue"/>
+
+        <TextView
+            android:id="@+id/txtView_StatisticsTotalValueTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/TextStyleStatisticsValue"/>
+
+        <TextView
+            android:id="@+id/txtView_StatisticsTotalValueRuns"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/TextStyleStatisticsValue"/>
+    </LinearLayout>
+
+    <!--Average-->
+    <TextView
+        android:id="@+id/txtView_StatisticsAverage"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/average"
+        style="@style/TextStyleStatisticsHeadline"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_StatisticsAverageHeadlines"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        style="@style/LinearLayoutStyleStatisticsHeadlines">
+
+        <TextView
+            android:id="@+id/txtView_StatisticsAverageHeadlineKmTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/average_time_km"
+            style="@style/TextStyleStatisticsHeadlineValue"/>
+
+        <TextView
+            android:id="@+id/txtView_StatisticsAverageHeadlineTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/average_total_time"
+            style="@style/TextStyleStatisticsHeadlineValue"/>
+
+        <TextView
+            android:id="@+id/txtView_StatisticsAverageHeadlineIntensity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/average_intensity"
+            style="@style/TextStyleStatisticsHeadlineValue"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_StatisticsAverageValues"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        style="@style/LinearLayoutStyleStatisticsValues">
+
+        <TextView
+            android:id="@+id/txtView_StatisticsAverageValueKmTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/TextStyleStatisticsValue"/>
+
+        <TextView
+            android:id="@+id/txtView_StatisticsAverageValueTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/TextStyleStatisticsValue"/>
+
+        <TextView
+            android:id="@+id/txtView_StatisticsAverageValueIntensity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/TextStyleStatisticsValue"/>
+    </LinearLayout>
+
+    <!--Best-->
+    <LinearLayout
+        android:id="@+id/linearLayout_StatisticsBestHeadlineDate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/txtView_StatisticsBest"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:text="@string/best_run"
+            android:layout_weight="1"
+            style="@style/TextStyleStatisticsHeadline"/>
+
+        <TextView
+            android:id="@+id/txtView_StatisticsBestDate"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="2"
+            style="@style/TextStyleStatisticsHeadline"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_StatisticsBestHeadlines"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        style="@style/LinearLayoutStyleStatisticsHeadlines">
+
+        <TextView
+            android:id="@+id/txtView_StatisticsBestHeadlineTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/best_total_time"
+            style="@style/TextStyleStatisticsHeadlineValue"/>
+
+        <TextView
+            android:id="@+id/txtView_StatisticsBestHeadlineKmTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/best_time_km"
+            style="@style/TextStyleStatisticsHeadlineValue"/>
+
+        <TextView
+            android:id="@+id/txtView_StatisticsBestHeadlineIntensity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="@string/best_intensity"
+            style="@style/TextStyleStatisticsHeadlineValue"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout_StatisticsBestValues"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        style="@style/LinearLayoutStyleStatisticsValuesLastLine">
+
+        <TextView
+            android:id="@+id/txtView_StatisticsBestValueTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/TextStyleStatisticsValue"/>
+
+        <TextView
+            android:id="@+id/txtView_StatisticsBestValueKmTime"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/TextStyleStatisticsValue"/>
+
+        <TextView
+            android:id="@+id/txtView_StatisticsBestValueIntensity"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            style="@style/TextStyleStatisticsValue"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/fragmentStartFrame"
+        android:title="@string/home"
+        android:icon="@drawable/ic_home"/>
+
+    <item
+        android:id="@+id/fragmentSelectRouteToCompare"
+        android:title="@string/compare"
+        android:icon="@drawable/ic_compare"/>
+
+    <item
+        android:id="@+id/fragmentStatistics"
+        android:title="@string/statistics"
+        android:icon="@drawable/ic_statistic"/>
+</menu>
